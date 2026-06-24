@@ -1,0 +1,10 @@
+{
+  "kimi_api_key": "sk-REPLACE_ME",
+  "kimi_base_url": "https://api.your-llm-provider.com/v1",
+  "kimi_model": "your-model-name",
+  "llm_provider": "kimi",
+  "agent_reasoning": true,
+  "skill_read_budget": 4000,
+  "skills_source": "memory/default/skills",
+  "scheduler": { "enabled": false }
+}

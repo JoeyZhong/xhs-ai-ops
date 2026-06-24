@@ -1,0 +1,31 @@
+# ── secrets & credentials（绝不提交）──
+.env
+.env.local
+config/settings.json
+config/cookies.db
+secrets/*.txt
+
+# ── 真实业务数据（只保留 *.example.json）──
+config/goals.json
+config/personas.json
+config/persona.json
+config/strategy.json
+config/lifecycle_*.json
+
+# ── 运行时产物 ──
+xhs_data/
+*.bak
+*.log
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ── Node / Next.js ──
+node_modules/
+.next/
+out/
+npm-debug.log*
